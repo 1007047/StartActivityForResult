@@ -23,6 +23,8 @@ public class MainActivity extends Activity {
             public void onClick(View arg0) {
                 Intent intent=new Intent(MainActivity.this,SecondActivity.class);
                 startActivityForResult(intent, 2);// Activity is started with requestCode 2
+                //startActivityFromChild();
+              // startActivity
             }
         });
     }
